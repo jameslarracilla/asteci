@@ -1,0 +1,30 @@
+.climas {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+
+  &__actions {
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    gap: 5px;
+
+    & button {
+      border: none;
+      padding: 10px 7px;
+      background-color: rgb(144, 182, 216);
+      color: #fff;
+      font-size: 1.2rem;
+
+      &:hover {
+        background-color: rgb(72, 155, 228);
+      }
+    }
+  }
+
+  &__registros {
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+}
